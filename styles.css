@@ -1,0 +1,129 @@
+body {
+    background-color: #243336;
+    color: white;
+    margin: 0;
+}
+
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contentWrap{
+    margin: 1%;
+}
+
+.navBar{
+    background-color: #0000006c;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    
+}
+.navBar a{
+    background-color: #04AA6D;
+    padding: 1%;
+    margin: 0px 1% 0px 1%;
+    font-size: clamp(0.5rem, 0.3077rem + 0.7692vw, 1rem);
+    text-decoration: none;
+    color: white;
+}
+
+.title{
+    color: #f7ddbb;
+    font-family: monospace;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.introOne{
+    padding: 1%;
+    font-size: clamp(2.5rem, 1.0577rem + 5.7692vw, 6.25rem);
+    margin: 0;
+}
+.introTwo{
+    padding: 1%;
+    font-size: clamp(2.5rem, 2.3077rem + 0.7692vw, 3rem);
+    margin: 0;
+}
+
+.myWork{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-bottom: 0.5%;
+    margin: 0;
+}
+.myWorkT{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 2rem;
+    margin: 0;
+    width: 50vw;
+}
+
+.abtMe{
+    display: flex;
+    padding-top: 0.5%;
+    margin: 0;
+    
+}
+.abtMeT{
+    display: flex;
+    flex-direction: column;
+    padding-right: 1%;
+    margin: 0;
+}
+
+
+.myWorkImg{
+    width: 100%;
+    height: auto;
+
+    border-style: solid;
+    border-color: #d67f6c;
+    border-width: 1%;
+    border-radius: 10px;
+}
+
+.abtMeImg{
+    width: auto;
+    height: 100%;
+    max-height: 300px;
+    border-style: solid;
+    border-color: #d67f6c;
+    border-width: 3px;
+    border-radius: 10px;
+}
+
+.divisor{
+    border: 5px solid #a86658;
+}
+
+footer{
+    text-align: center;
+    background-color: #3d4858;
+    position: static;
+    width: 100%;
+    bottom: 0%;
+    padding: 1% 0px;
+}
+
+h3 {
+    font-size: clamp(2rem, 1.023rem + 4.89vw, 4.688rem);
+    padding-bottom: 1%;
+    margin: 0;
+}
+
+p{
+    font-size: clamp(1.5rem, 1.318rem + 0.91vw, 2rem);
+    padding-top: 1%;
+    margin: 0;
+}
